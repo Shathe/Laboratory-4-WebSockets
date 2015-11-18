@@ -80,7 +80,7 @@ public class ElizaServerTest {
 					@Override
 					public void onMessage(String message) {
 						list.add(message);
-						latch.countDown(); // You countdown the latch
+						latch.countDown(); // You countdown the latch.
 					}
 				});
 			}
